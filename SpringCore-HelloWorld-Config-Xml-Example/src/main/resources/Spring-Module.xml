@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="helloBean" class="com.codewr.common.HelloWorld"  init-method="init" destroy-method="destroy">
+        <!--<property name="name" value="World" />-->
+                
+    </bean>
+    <!--	<bean id="welcomeBean" class="com.codewr.common.WelcomeWorld">
+            <property name="text" value="codewr.com" />
+    </bean>-->
+</beans>
