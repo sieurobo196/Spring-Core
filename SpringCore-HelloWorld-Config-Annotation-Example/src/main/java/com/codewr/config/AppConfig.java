@@ -10,7 +10,7 @@ public class AppConfig {
 
     @Bean(name = "helloBean")
     public HelloWorld helloWorld() {
-        System.out.println("kkkk");
+       
         return new HelloWorldImpl();
     }
 
